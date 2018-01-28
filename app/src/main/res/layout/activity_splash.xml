@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backggg"
+    tools:context="com.example.jason.myapplication.SplashActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            android:text="36,520"
+            android:textColor="@color/lightorange"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text=" FUCKING LOVE WEEEEEEDDDDDDDD"
+            android:textAlignment="center"
+            android:textColor="@color/lightorangedark"
+            android:textSize="30sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_marginTop="-5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fire"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonsub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="FUCK ME NOW"
+            android:background="@drawable/buttonstyle"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+
